@@ -1,0 +1,6 @@
+{
+  "name": "AI API Builder",
+  "description": "An AI-powered API builder and architecture dashboard for generating database schemas, RESTful & GraphQL endpoints, and live documentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
