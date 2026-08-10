@@ -39,7 +39,7 @@ app.get("/api/health", (_req, res) => {
 // API Generator Endpoint
 app.post("/api/generate-api", async (req, res) => {
   const { prompt, databasePreference } = req.body || {};
-  const userPrompt = prompt || "Employee Management System with Roles and Departments";
+  const userPrompt = prompt;
 
   const client = getGeminiClient();
 

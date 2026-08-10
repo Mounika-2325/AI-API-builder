@@ -15,7 +15,7 @@ export default function ApiGeneratorView({ onTestEndpoint, onSaveToProjects }: A
   const [savedSuccess, setSavedSuccess] = useState(false);
 
   const defaultSampleResult: GenerationResult = {
-    projectName: "Employee Management System",
+    const userPrompt= prompt // "Employee Management System";
     version: "v1.0.0",
     description: "Enterprise employee directory with roles, departments, and payroll mapping.",
     databaseType: "PostgreSQL",
